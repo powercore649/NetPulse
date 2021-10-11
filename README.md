@@ -69,7 +69,7 @@ crontab -e
 When the file is opened you can add the following commands, which will boot the website on startup in its own thread, and also execute the Python script every 5 minutes:
 
 ```console
-*/5 * * * * cd /path/to/file && python3 main.py
+0,*/5 * * * * cd /path/to/file && python3 main.py
 @reboot cd /path/to/file && python3 -m http.server &
 ```
 
