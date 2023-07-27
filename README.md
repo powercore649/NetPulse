@@ -1,10 +1,16 @@
-# Broadband Speed Logger ⏱️
+&nbsp;
+<div id="header" align="center">
+  <img src="https://github.com/Jack-Development/NetPulse/blob/main/Resources/logo.png" width="300"/>
+</div>
+&nbsp;
 
-Welcome to the Broadband Speed Logger project! This application is built to monitor and log your internet download/upload speed at regular intervals. It's particularly suited for devices like a Raspberry Pi.
+# NetPulse ⏱️
+
+Welcome to NetPulse! This application is built to monitor and log your internet download/upload speed at regular intervals. It's particularly suited for devices like a Raspberry Pi.
 
 ## Overview 📝
 
-Broadband Speed Logger is a potent tool for tracking your internet speed metrics. This application leverages the power of "speedtest-cli" to capture data and provides a user-friendly HTML/JavaScript webserver interface to display the results. Moreover, it uses cron for scheduling regular checks, making it an ideal solution for continuous monitoring on systems like a Raspberry Pi.
+NetPulse is a potent tool for tracking your internet speed metrics. This application leverages the power of "speedtest-cli" to capture data and provides a user-friendly HTML/JavaScript webserver interface to display the results. Moreover, it uses cron for scheduling regular checks, making it an ideal solution for continuous monitoring on systems like a Raspberry Pi.
 
 ## Features 🎮
 
@@ -40,7 +46,7 @@ pip3 install pandas
 
 ### Manual
 
-In a manual system, the user will run the python script "[main.py](https://github.com/Jack-Development/broadbandSpeed/blob/main/main.py)" whenever they wish to get a new reading for their speed. This would then be stored under a file with the name "data,[Day],[Month],[Year].csv" in the root directory.
+In a manual system, the user will run the python script "[main.py](https://github.com/Jack-Development/NetPulse/blob/main/main.py)" whenever they wish to get a new reading for their speed. This would then be stored under a file with the name "data,[Day],[Month],[Year].csv" in the root directory.
 
 You can run the speed test by executing the following in the root directory:
 
